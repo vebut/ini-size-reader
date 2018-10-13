@@ -21,7 +21,7 @@ $postMaxSize->getBytes(); // 2097152
 $postMaxSize->getString(); // "2M"
 ```
 
-For simplicity the `Reader` also offers a factory method
+For simplicity the `Reader` also offers a static shortcut method
 ```php
 <?php
 use Vebut\IniSizeReader\Reader;
