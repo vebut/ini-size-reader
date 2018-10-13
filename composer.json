@@ -4,6 +4,7 @@
 
   "description": "Reads ini-file style size values into bytes",
   "homepage": "https://github.com/vebut/ini-size-reader",
+  "license": "MIT",
 
   "minimum-stability": "stable",
   "keywords": [
