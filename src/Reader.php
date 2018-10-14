@@ -12,7 +12,7 @@ use Vebut\IniSizeReader\Exception\FormatException;
 class Reader
 {
     /**
-     * @var int|null
+     * @var int
      */
     private $bytes;
 
