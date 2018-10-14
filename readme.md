@@ -1,4 +1,6 @@
 # IniSizeReader
+[![Build Status](https://travis-ci.org/vebut/ini-size-reader.svg?branch=master)](https://travis-ci.org/vebut/ini-size-reader)
+
 This library helps with parsing/reading ini-file styled size values such as
 `4M`, `2MB`, `1024`, `1GB`, etc into bytes.
 
