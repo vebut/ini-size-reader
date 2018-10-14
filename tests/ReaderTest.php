@@ -26,8 +26,8 @@ class ReaderTest extends TestCase
         $this->assertEquals(1073741824, Reader::toBytes("1GB"));
         $this->assertEquals(1125899906842624, Reader::toBytes("1PB"));
 
-        $exception = null;
         foreach (["not a number", "1-1GB"] as $value) {
+            $exception = null;
             try {
                 $this->assertEquals(1024, Reader::toBytes($value));
             }
